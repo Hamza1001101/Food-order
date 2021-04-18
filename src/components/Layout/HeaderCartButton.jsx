@@ -11,6 +11,6 @@ const HeaderCartButton = (props) => {
       <span className={classes.badge}> 3 </span>
     </button>
   );
-};
+}; 
 
 export default HeaderCartButton;
