@@ -61,6 +61,10 @@ const AvailableMeals = () => {
     fetchMeals();
   }, []);
 
+  if (isLoading) {
+    return <section className={classes.MealsLoading}>Loading...</section>;
+  }
+
   const mealsList = meals.map((meal) => (
     <MealItem
       key={meal.id}
