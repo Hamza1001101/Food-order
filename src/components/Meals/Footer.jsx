@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className={classes["main-part"]}>
         <div className="footer-list-wrapper">
-          <h3 className={classes["footer-heading"]}>Grand Hotel</h3>
+          <h3 className={classes["footer-heading"]}>ReactMeals</h3>
           <ul className={classes["footer-list"]}>
             <li className={classes["footer-list-item"]}>
               <a href="#" className={classes["footer-list-link"]}>
@@ -14,12 +14,12 @@ const Footer = () => {
             </li>
             <li className={classes["footer-list-item"]}>
               <a href="#" className={classes["footer-list-link"]}>
-                New York, Main Street 123
+                Stockholm, Main Street 123
               </a>
             </li>
             <li className={classes["footer-list-item"]}>
               <a href="#" className={classes["footer-list-link"]}>
-                Tel: +123 (4) 546 827
+                Tel: +46 74 546 82 37
               </a>
             </li>
           </ul>
@@ -41,7 +41,7 @@ const Footer = () => {
         <div className={classes["creator-part"]}>
           <h3 className={classes["footer-heading"]}>Creator part</h3>
           <div className={classes["copyright-text"]}>
-            <p>Copyright: &copy; 2021. Grand Hotel. All rights reserved.</p>
+            <p>Copyright: &copy; 2021. ReactMeals. All rights reserved.</p>
           </div>
 
           <div className={classes["text-right"]}>
