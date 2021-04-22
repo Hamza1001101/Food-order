@@ -38,6 +38,18 @@ const Footer = () => {
             </button>
           </form>
         </div>
+        <div className={classes["creator-part"]}>
+          <h3 className={classes["footer-heading"]}>Creator part</h3>
+          <div className={classes["copyright-text"]}>
+            <p>Copyright: &copy; 2021. Grand Hotel. All rights reserved.</p>
+          </div>
+
+          <div className={classes["text-right"]}>
+            <p>
+              Made with ❤️ by <span>Hamza Hayd</span> 👍🏽
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   );
