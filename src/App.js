@@ -12,7 +12,7 @@ function App() {
     setCartIsShown(true);
   };
 
-  const hideCartHandler = () => {
+  const hideCartHandler = () => { 
     setCartIsShown(false);
   };
 
