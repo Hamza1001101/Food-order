@@ -20,7 +20,7 @@
 
 .underline--magical {
 	 /*background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
-background-image: linear-gradient(to right top, #e76817, #f18800, #f7a800, #f8c900, #f4e91a);
+   background-image: linear-gradient(to right top, #e76817, #f18800, #f7a800, #f8c900, #f4e91a);
    background-repeat: no-repeat;
 	 background-size: 100% 0.2em;
 	 background-position: 0 88%;
@@ -32,4 +32,11 @@ background-image: linear-gradient(to right top, #e76817, #f18800, #f7a800, #f8c9
  .underline--magical:hover {
 	 background-size: 100% 88%;
 }
- 
+
+
+.subheading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+}
