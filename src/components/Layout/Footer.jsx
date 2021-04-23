@@ -9,12 +9,12 @@ const Footer = () => {
           <ul className={classes["footer-list"]}>
             <li className={classes["footer-list-item"]}>
               <a href="#" className={classes["footer-list-link"]}>
-                support@grandhotel.com
+                support@reactmeals.com
               </a>
             </li>
             <li className={classes["footer-list-item"]}>
               <a href="#" className={classes["footer-list-link"]}>
-                Stockholm, Main Street 123
+                Stockholm, Maingatan 123
               </a>
             </li>
             <li className={classes["footer-list-item"]}>
